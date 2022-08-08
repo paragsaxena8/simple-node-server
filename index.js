@@ -1,0 +1,381 @@
+import express from "express";
+
+const app = express();
+
+app.use(express.json());
+
+app.get("/process/processDetails", (req, res) => {
+  res.status(200).json({
+    type: "dataObject",
+    jsonNode: [
+      {
+        id: "cb3a95e8-3ad2-4b11-ba10-ac3ef16bbaa4",
+        name: "Role Mining analytics",
+        description: "perform role mining",
+        startTime: "2022-07-29 11:22:16.462",
+        status: "Completed",
+        processType: "AnalysisProcess",
+        purpose: "Role Mining",
+        statusDescription:
+          "ADCE419: None of the changes were applied because either system has more recent data or change is attempted on non-existent data. Please re-upload latest data with appropriate extraction date/time.",
+        parameters: {
+          name: "Role Mining analytics",
+          description: "perform role mining",
+          analysisName: "Role Mining",
+          parameters: {
+            inputSource: "file",
+            supportValue: 0.1,
+            identityDataInput:
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userAttributes.csv",
+            accessDataInput: [
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userEntitlements.csv",
+            ],
+          },
+        },
+        resultantDatasets: [
+          {
+            category: null,
+            nativeType: null,
+            metaType: null,
+            appIdentifier: null,
+            datasetProcessId: null,
+          },
+        ],
+      },
+      {
+        id: "4cd2ce49-1028-417a-983b-b9ad807283de",
+        name: "Role Mining analytics",
+        description: "perform role mining",
+        startTime: "2022-07-27 17:03:32.22",
+        status: "Completed",
+        processType: "AnalysisProcess",
+        purpose: "Role Mining",
+        statusDescription:
+          "No Action required: Entities of this dataset process are not applicable for publishing.",
+        parameters: {
+          name: "Role Mining analytics",
+          description: "perform role mining",
+          analysisName: "Role Mining",
+          parameters: {
+            inputSource: "file",
+            supportValue: 0.1,
+            identityDataInput:
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userAttributes.csv",
+            accessDataInput: [
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userEntitlements.csv",
+            ],
+          },
+        },
+        resultantDatasets: [
+          {
+            category: "Role",
+            nativeType: "Role",
+            metaType: "RolePerspective",
+            appIdentifier: "Role Mining",
+            datasetProcessId: "5197cb5d-03df-4af7-9f5d-ee0c765d0825",
+          },
+          {
+            category: "Role",
+            nativeType: "Role",
+            metaType: "IdentityPerspective",
+            appIdentifier: "Role Mining",
+            datasetProcessId: "df274694-6581-4167-9c29-17edb90e0511",
+          },
+        ],
+      },
+      {
+        id: "7ee8c983-61ff-4731-b2a4-bb4cd4dde2cb",
+        name: "Role Mining analytics",
+        description: "perform role mining",
+        startTime: "2022-07-27 16:47:58.338",
+        status: "Completed",
+        processType: "AnalysisProcess",
+        purpose: "Role Mining",
+        statusDescription: "status",
+        parameters: {
+          name: "Role Mining analytics",
+          description: "perform role mining",
+          analysisName: "Role Mining",
+          parameters: {
+            inputSource: "file",
+            supportValue: 0.1,
+            identityDataInput:
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userAttributes.csv",
+            accessDataInput: [
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userEntitlements.csv",
+            ],
+          },
+        },
+        resultantDatasets: [
+          {
+            category: "Role",
+            nativeType: "Role",
+            metaType: "RolePerspective",
+            appIdentifier: "Role Mining",
+            datasetProcessId: "72f63d96-71f2-42ff-b4e7-cca1b3f81c7d",
+          },
+          {
+            category: "Role",
+            nativeType: "Role",
+            metaType: "IdentityPerspective",
+            appIdentifier: "Role Mining",
+            datasetProcessId: "54dbac35-ab0a-4d98-9ab6-a6348a86bde4",
+          },
+        ],
+      },
+      {
+        id: "6b8ca30d-be5b-4cde-8b31-72ef562a4822",
+        name: "Role Mining analytics",
+        description: "perform role mining",
+        startTime: "2022-07-27 15:36:48.833",
+        status: "Completed",
+        processType: "AnalysisProcess",
+        purpose: "Role Mining",
+        statusDescription:
+          "No Action required: Entities of this dataset process are not applicable for publishing.",
+        parameters: {
+          name: "Role Mining analytics",
+          description: "perform role mining",
+          analysisName: "Role Mining",
+          parameters: {
+            inputSource: "file",
+            supportValue: 0.1,
+            identityDataInput:
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userAttributes.csv",
+            accessDataInput: [
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userEntitlements.csv",
+            ],
+          },
+        },
+        resultantDatasets: [
+          {
+            category: "Role",
+            nativeType: "Role",
+            metaType: "RolePerspective",
+            appIdentifier: "Role Mining",
+            datasetProcessId: "50664973-0010-415b-9ee0-63b468ccc4bb",
+          },
+          {
+            category: "Role",
+            nativeType: "Role",
+            metaType: "IdentityPerspective",
+            appIdentifier: "Role Mining",
+            datasetProcessId: "c7a092fb-1ea4-4906-a594-1fd6c52a36c9",
+          },
+        ],
+      },
+      {
+        id: "b47a0bd4-800a-493f-8624-7ff482972bcc",
+        name: "Role Mining analytics",
+        description: "perform role mining",
+        startTime: "2022-07-26 15:48:47.338",
+        status: "Completed",
+        processType: "AnalysisProcess",
+        purpose: "Role Mining",
+        statusDescription:
+          "No Action required: Entities of this dataset process are not applicable for publishing.",
+        parameters: {
+          name: "Role Mining analytics",
+          description: "perform role mining",
+          analysisName: "Role Mining",
+          parameters: {
+            inputSource: "file",
+            supportValue: 0.1,
+            identityDataInput:
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userAttributes.csv",
+            accessDataInput: [
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userEntitlements.csv",
+            ],
+          },
+        },
+        resultantDatasets: [
+          {
+            category: "Role",
+            nativeType: "Role",
+            metaType: "RolePerspective",
+            appIdentifier: "Role Mining",
+            datasetProcessId: "8d76bba2-2ea2-43ad-a715-179065194588",
+          },
+          {
+            category: "Role",
+            nativeType: "Role",
+            metaType: "IdentityPerspective",
+            appIdentifier: "Role Mining",
+            datasetProcessId: "c43a1082-d9ba-4ca8-9a4b-ec16aeeac920",
+          },
+        ],
+      },
+      {
+        id: "bb48fc4b-f17e-4005-aff7-8ce6accaeb2e",
+        name: "Role Mining analytics",
+        description: "perform role mining",
+        startTime: "2022-07-26 15:45:12.639",
+        status: "Completed",
+        processType: "AnalysisProcess",
+        purpose: "Role Mining",
+        statusDescription:
+          "ADCE419: None of the changes were applied because either system has more recent data or change is attempted on non-existent data. Please re-upload latest data with appropriate extraction date/time.",
+        parameters: {
+          name: "Role Mining analytics",
+          description: "perform role mining",
+          analysisName: "Role Mining",
+          parameters: {
+            inputSource: "file",
+            supportValue: 0.1,
+            identityDataInput:
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userAttributes.csv",
+            accessDataInput: [
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userEntitlements.csv",
+            ],
+          },
+        },
+        resultantDatasets: [
+          {
+            category: null,
+            nativeType: null,
+            metaType: null,
+            appIdentifier: null,
+            datasetProcessId: null,
+          },
+        ],
+      },
+      {
+        id: "3c94c665-10a5-4adf-89ac-44d82c5f9606",
+        name: "Role Mining analytics",
+        description: "perform role mining",
+        startTime: "2022-07-26 15:42:30.781",
+        status: "Completed",
+        processType: "AnalysisProcess",
+        purpose: "Role Mining",
+        statusDescription:
+          "ADCE419: None of the changes were applied because either system has more recent data or change is attempted on non-existent data. Please re-upload latest data with appropriate extraction date/time.",
+        parameters: {
+          name: "Role Mining analytics",
+          description: "perform role mining",
+          analysisName: "Role Mining",
+          parameters: {
+            inputSource: "file",
+            supportValue: 0.1,
+            identityDataInput:
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userAttributes.csv",
+            accessDataInput: [
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userEntitlements.csv",
+            ],
+          },
+        },
+        resultantDatasets: [
+          {
+            category: null,
+            nativeType: null,
+            metaType: null,
+            appIdentifier: null,
+            datasetProcessId: null,
+          },
+        ],
+      },
+      {
+        id: "9f3c852b-bc93-4358-9092-734a51df904a",
+        name: "Role Mining analytics",
+        description: "perform role mining",
+        startTime: "2022-07-26 15:21:25.802",
+        status: "Processing",
+        processType: "AnalysisProcess",
+        purpose: "Role Mining",
+        statusDescription: null,
+        parameters: {
+          name: "Role Mining analytics",
+          description: "perform role mining",
+          analysisName: "Role Mining",
+          parameters: {
+            inputSource: "file",
+            supportValue: 0.1,
+            identityDataInput:
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userAttributes.csv",
+            accessDataInput: [
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userEntitlements.csv",
+            ],
+          },
+        },
+        resultantDatasets: [
+          {
+            category: null,
+            nativeType: null,
+            metaType: null,
+            appIdentifier: null,
+            datasetProcessId: null,
+          },
+        ],
+      },
+      {
+        id: "bd5cdfdf-b6d5-4891-817a-87e26646b4bf",
+        name: "Role Mining analytics",
+        description: "perform role mining",
+        startTime: "2022-07-26 14:43:39.633",
+        status: "Failed",
+        processType: "AnalysisProcess",
+        purpose: "Role Mining",
+        statusDescription: null,
+        parameters: {
+          name: "Role Mining analytics",
+          description: "perform role mining",
+          analysisName: "Role Mining",
+          parameters: {
+            inputSource: "file",
+            supportValue: 0.1,
+            identityDataInput:
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userAttributes.csv",
+            accessDataInput: [
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userEntitlements.csv",
+            ],
+          },
+        },
+        resultantDatasets: [
+          {
+            category: null,
+            nativeType: null,
+            metaType: null,
+            appIdentifier: null,
+            datasetProcessId: null,
+          },
+        ],
+      },
+      {
+        id: "1eb85100-34c4-45d5-bfa0-2ad2009848c3",
+        name: "Role Mining analytics",
+        description: "perform role mining",
+        startTime: "2022-07-26 14:36:02.413",
+        status: "Failed",
+        processType: "AnalysisProcess",
+        purpose: "Role Mining",
+        statusDescription: null,
+        parameters: {
+          name: "Role Mining analytics",
+          description: "perform role mining",
+          analysisName: "Role Mining",
+          parameters: {
+            inputSource: "file",
+            supportValue: 0.1,
+            identityDataInput:
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userAttributes.csv",
+            accessDataInput: [
+              "/data/confluxsys/iag-cloud/tools/autonomous-role-miner/userEntitlements.csv",
+            ],
+          },
+        },
+        resultantDatasets: [
+          {
+            category: null,
+            nativeType: null,
+            metaType: null,
+            appIdentifier: null,
+            datasetProcessId: null,
+          },
+        ],
+      },
+    ],
+  });
+});
+
+app.listen(3000, (req, res) => {
+  console.log("Serve is listening on 3000");
+});
